@@ -140,14 +140,15 @@ body {
 .f-wrapper--3 .flower__leaf:not(:first-child) {
     width: 3.8vmin;
     height: 10vmin;
-    background-image: linear-gradient(to bottom, #ff4d4d, #cc0000, #660000 99%);
+    
+    background-image: linear-gradient(to bottom, #a64ac9, #5e2d79, #3b1554 99%);
 }
-
+/* #ff4d4d, #cc0000, #660000 */
 .f-wrapper--3 .flower__leaf--1 {
     width: 8vmin;
     height: 10vmin;
     bottom: 2vmin;
-    background-color: #ff4d4d;
+    background-color: #a64ac9;
 }
 
 .f-wrapper--2 .flower__leaf--1 {
@@ -171,7 +172,7 @@ body {
 .f-wrapper--3 .f .flower__leaf--8 {
     bottom: 4.5vmin;
     left: -10%;
-    background-image: linear-gradient(to left bottom, #ff4d4d, #cc0000);
+    background-image: linear-gradient(to left bottom, #a64ac9, #5e2d79);
     ;
 }
 
@@ -199,7 +200,8 @@ body {
     transform: translateX(-50%);
     width: 5vmin;
     height: 14vmin;
-    background-image: linear-gradient(to bottom, #366be7, #1d233e, #183c68 99%);
+    /* background-image: linear-gradient(to bottom, #366be7, #1d233e, #183c68 99%); */
+    background-image: linear-gradient(to bottom, #ff4d4d, #cc0000, #660000 99%);
 
     clip-path: ellipse(50% 50% at 50% 50%);
     transform-origin: center bottom;
@@ -211,7 +213,7 @@ body {
     height: 12vmin;
     bottom: 3vmin;
     border-radius: 50% 50% 50% 50% / 80% 80% 20% 20%;
-    background-color: #3667d9;
+    background-color: #ff4d4d;
     background-image: none;
     animation: open-flowe--middle 1.4s 1s backwards;
 }
@@ -249,7 +251,7 @@ body {
     clip-path: none;
     border-radius: 10vmin 2vmin 10vmin 2vmin;
     transform: rotate(-55deg);
-    background-image: linear-gradient(to left bottom, #366be7, #21294f, #183c68 98%);
+    background-image: linear-gradient(to left bottom, #ff4d4d, #cc0000, #660000 98%);
 }
 
 .flower__fall-down--white {
